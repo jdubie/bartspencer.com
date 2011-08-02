@@ -5,6 +5,5 @@
   , "dependencies": {
       "express": "2.4.3"
     , "jade": ">= 0.0.1"
-    , "forever": "0.4.0"
   }
 }
