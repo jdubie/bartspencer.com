@@ -1,0 +1,44 @@
+!!! strict
+html(xmlns='http://www.w3.org/1999/xhtml')
+  head
+    meta(http-equiv='content-type', content='text/html; charset=utf-8')
+    title Bart Spencer
+    meta(name='keywords', content='')
+    meta(name='description', content='')
+    link(href='stylesheets/default.css', rel='stylesheet', type='text/css')
+  body
+    #header
+      #logo
+        h1
+          a(href='#') Bart Spencer
+        h2
+          a(href='http://www.freecsstemplates.org/') Menlo Park Fire Director
+      #menu
+        ul
+          li
+            a(href='/') Home
+          li
+            a(href='/endorsements') Endorsements
+          li
+            a(href='/support') Support
+          li
+            a(href='/contact') Contact
+    #page
+      #content!= body
+      #sidebar
+        #footer
+          p#legal
+            | ©2007 Landscape. All Rights Reserved
+            br
+            | Designed by
+            a(href='http://www.freecsstemplates.org/') Free CSS Templates
+          p#links
+            a(href='#') Privacy
+            | |
+            a(href='#') Terms
+            | |
+            a(href='http://validator.w3.org/check/referer', title='This page validates as XHTML 1.0 Transitional')
+              abbr(title='eXtensible HyperText Markup Language') XHTML
+            | |
+            a(href='http://jigsaw.w3.org/css-validator/check/referer', title='This page validates as CSS')
+              abbr(title='Cascading Style Sheets') CSS
