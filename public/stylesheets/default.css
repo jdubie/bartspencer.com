@@ -108,13 +108,29 @@ hr {
 }
 
 #logo h1 {
-	padding: 120px 0 0 0;
+	padding: 0px 0 0 0;
+	letter-spacing: -1px;
+	font-size: 36px;
+}
+
+#logo h1.cursive {
+	padding-top: 35px;
+	font-family: Coronetscript, cursive;
+	color: #FFFFFF;
+}
+
+#picture {
+	float: left;
 	background-image: url(images/bart.jpg);
 	background-repeat:no-repeat;
 	background-position:5% 30px;
 	letter-spacing: -1px;
 	font-size: 36px;
+	width: 200px;
+	height: 200px;
+	margin-left: 40px;
 }
+
 
 #logo h2 {
 	font-size: 18px;
