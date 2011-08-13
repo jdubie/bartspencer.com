@@ -6,6 +6,12 @@ html(xmlns='http://www.w3.org/1999/xhtml')
     meta(name='keywords', content='')
     meta(name='description', content='')
     link(href='stylesheets/default.css', rel='stylesheet', type='text/css')
+
+    // start Mixpanel
+    script(type='text/javascript')
+      var mpq=[];mpq.push(["init","4a6d93db6f45665e5e2e2bb575361622"]);(function(){var b,a,e,d,c;b=document.createElement("script");b.type="text/javascript";b.async=true;b.src=(document.location.protocol==="https:"?"https:":"http:")+"//api.mixpanel.com/site_media/js/api/mixpanel.js";a=document.getElementsByTagName("script")[0];a.parentNode.insertBefore(b,a);e=function(f){return function(){mpq.push([f].concat(Array.prototype.slice.call(arguments,0)))}};d=["init","track","track_links","track_forms","register","register_once","identify","name_tag","set_config"];for(c=0;c<d.length;c++){mpq[d[c]]=e(d[c])}})();
+    // end Mixpanel
+
   body
     #header
       #logo
@@ -45,3 +51,6 @@ html(xmlns='http://www.w3.org/1999/xhtml')
             | |
             a(href='http://jigsaw.w3.org/css-validator/check/referer', title='This page validates as CSS')
               abbr(title='Cascading Style Sheets') CSS
+    #mixpanel
+      a(href="http://mixpanel.com/f/partner")
+        img(src="http://mixpanel.com/site_media/images/partner/badge_blue.png", alt="Web Analytics")

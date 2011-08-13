@@ -318,3 +318,8 @@ hr {
 #footer a {
 	color: #000000;
 }
+
+#mixpanel {
+	margin: 25px;
+	float: right;
+}
