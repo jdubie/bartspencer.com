@@ -33,7 +33,7 @@ app.get('/favicon.ico', function(req,res) {
 });
 
 app.get('/:id', function(req, res){
-  res.render(req.params.id + '/index.jade', {
+  res.render(req.params.id + '.jade', {
     title: req.params.id,
     layout: 'layout.jade'
   });
