@@ -40,8 +40,9 @@ app.get('/:id', function(req, res){
 });
 
 app.get('/', function(req, res){
-  res.render('index', {
-    title: 'Express'
+  res.render('email', {
+    title: 'Express',
+    layout: false
   });
 });
 
